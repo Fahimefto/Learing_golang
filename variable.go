@@ -14,4 +14,6 @@ func main(){
 	//another way to declare variable
 	age1:=28
 	fmt.Println(age1)
+	fmt.Scanln(&age1)
+	fmt.Println(age1)
 }
